@@ -1,0 +1,40 @@
+.cabecalho{
+    display: flex;
+    background-color: chartreuse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0px 16px;
+    box-shadow: -5px 5px 10px #c7c7c7, -5px -5px 10px #f9f9f9;
+   
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: space-around;
+
+}
+
+.divona{
+    display: flex;
+    align-items: center;
+    user-select: none;
+    gap: 24px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    user-select: none;
+    background-color: #f5f5f5;
+    gap: 24px;
+    padding: 10px 12px 10px 20px;
+}
+.input{
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,49 @@
+.header{
+    background-color: aqua;
+}
+
+.promotion{
+    height: 48px;
+    background-color: black;
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.shop{
+    margin-left: 10px;
+    color: white;
+}
+
+.shop:link{
+    color: white;
+}
+.shop:visited{
+    color: rgb(198, 198, 198);
+}
+.shop:hover{
+    color: rgb(212, 255, 165);
+}
+.shop:active{
+    color: rgb(255, 0, 0);
+}
+
+.dropdown{
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 75%;
+    position: absolute;
+}
+.dropdown:focus{
+    outline: none;
+}
+
+.opcao{
+    color: white;
+    background-color: black;
+
+}

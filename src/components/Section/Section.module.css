@@ -1,0 +1,16 @@
+.rediv{
+    height: 40px;
+    width: 20px;
+    background-color: red;
+    border-radius: 4px;   
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    color: red;
+    gap: 16px;
+}
+
